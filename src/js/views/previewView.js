@@ -21,7 +21,6 @@ class PreviewView extends View {
             <div class="preview__user-generated ${
               this._data.key ? '' : 'hidden'
             }">
-            
               <svg>
               <use href="${icons}#icon-user"></use>
               </svg>
